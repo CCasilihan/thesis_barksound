@@ -5,7 +5,7 @@ const userRoutes = require('./userRoutes');
 //const { secretKey } = require('../secretkey/secret');
 
 const app = express();
-const port =  3003;
+const port =  3306;
 
 app.use(bodyParser.json());
 
